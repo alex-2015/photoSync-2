@@ -1,0 +1,24 @@
+{
+  "name": "photosync",
+  "main": "index.html",
+  "node-main" : "app.js",
+  "version": "0.0.1",
+  "single-instance": true,
+  "show_in_taskbar" : false,
+    "icon" : "img/178d288310581041.icns",
+  "window": {
+    "show": false
+  },
+  "chromium-args": "--child-clean-exit",
+  "showDevTools": false,
+  "dependencies": {
+    "socket.io": "^0.9.16",
+    "gaze": "^0.6.4",
+    "chokidar": "^0.8.2",
+    "chalk": "^0.4.0",
+    "request": "^2.35.0",
+    "bcrypt": "^0.7.8",
+    "jsonfile": "^1.1.1",
+    "q": "^1.0.1"
+  }
+}

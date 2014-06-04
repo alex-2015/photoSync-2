@@ -1,0 +1,14 @@
+<header>
+    <h1>{{ path | path }}</h1>
+    <button class="btn btn-primary pull-right" ng-click="addFolderPath()"><i class="fa fa-cog"></i></button>
+</header>
+
+
+<ul class="file-list">
+    <li class="file-list-item" ng-repeat="(folder , files) in manifest" ng-class="{ 'first': $first }">
+        <div class="folder"> {{ folder | path }} </div>
+        <ul class="list-group">
+            <li class="list-group-item" ng-repeat="file in files">{{ file | path }}</li>
+        </ul>
+    </li>
+</ul>

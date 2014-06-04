@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>photosync</title>
+
+    <link href="../css/main.css" rel="stylesheet">
+
+</head>
+<body ng-app="photoSync">
+
+
+<div ui-view class="ui-view-container"></div>
+
+<script src="http://localhost:3000/socket.io/socket.io.js"></script>
+
+<script type="text/javascript" src="../bower_components/angular/angular.js"></script>
+<script type="text/javascript" src="../bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<script type="text/javascript" src="../bower_components/angular-socket-io/socket.js"></script>
+<script type="text/javascript" src="../bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+<script type="text/javascript" src="../bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+
+<script type="text/javascript" src="../js/index.js"></script>
+
+
+<script type="text/javascript" src="../js/controllers.js"></script>
+<script type="text/javascript" src="../js/controllers/ctrl_home.js"></script>
+<script type="text/javascript" src="../js/controllers/ctrl_settings.js"></script>
+
+
+<script type="text/javascript" src="../js/services.js"></script>
+<script type="text/javascript" src="../js/services/srvs_sockets.js"></script>
+<script type="text/javascript" src="../js/services/srvs_manifest.js"></script>
+
+<script type="text/javascript" src="../js/filters.js"></script>
+<script type="text/javascript" src="../js/filters/fltr_path.js"></script>
+
+</body>
+</html>

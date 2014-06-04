@@ -1,0 +1,49 @@
+@import "variables.less";
+@import "../bower_components/bootstrap/less/bootstrap";
+@import "../bower_components/font-awesome/less/font-awesome";
+
+.ui-view-container{
+  margin-top: 50px;
+}
+
+.syncButtonContainer{
+  margin-top: 10px;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  background: @brand-primary;
+  padding: 5px;
+
+  h1{
+    color: #fff;
+    font-size: 1.2em;
+    float: left;
+    margin: 10px 0;
+  }
+
+  .btn-primary{
+    background: transparent;
+
+  }
+}
+.file-list{
+
+  margin: 0;
+  list-style: none;
+  padding: 0;
+
+  .folder{
+    padding: 10px 10px;
+    background: @gray-lighter;
+  }
+
+  .list-group{
+    margin-bottom: 0;
+  }
+
+}
+
